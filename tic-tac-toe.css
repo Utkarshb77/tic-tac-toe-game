@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+    text-align: center;
+}
+.container{
+    height: 70vh; /* vh is view height. page ka 70% container k paas rahega chahe kuch bhi likhe hum. */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin; 
+    width: 60vmin;/* vmin is the min height or width. Means it limits the  height or width by that % of view port.*/
+    display: flex;
+    flex-wrap: wrap; /*The flex-wrap CSS property sets whether flex items are forced onto one line or can wrap onto multiple lines. If wrapping is allowed, it sets the direction that lines are stacked.*/
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0 , 0 , 0, 0 , 0.5);
+    font-size: 8vmin;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+#newg{
+    padding: 1rem;
+    font-size:1.25rem;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 1rem;
+    border: none;
+}
+#reset{
+    padding: 1rem;
+    font-size:1.25rem;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 1rem;
+    border: none;
+}
+#msg{
+    color:#131303;
+    font-size:none;
+}
+.msgcontainer{
+    height: 20vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+.hide{
+    display: none;
+}
