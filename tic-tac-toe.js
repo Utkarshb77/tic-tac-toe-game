@@ -75,3 +75,4 @@ let draw = ()=>{
 }
 newgamebtn.addEventListener("click",resetgame);
 resetbtn.addEventListener("click",resetgame);
+// Demonstrating how to modify the file using git.
